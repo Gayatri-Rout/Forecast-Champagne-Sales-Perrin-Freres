@@ -5,15 +5,11 @@ The objective of this project was to forecast monthly champagne sales for Perrin
 
 ## Steps Performed
 
-### Data Preparation
+### Data Preparation and EDA
 - Loaded the dataset using Pandas.
 - Renamed columns for clarity.
 - Converted the 'Month' column to datetime format and set it as the index.
-- Removed the last two rows for consistency.
-
-### Exploratory Data Analysis
-- Checked for missing values and data types.
-- Visualized the sales data over time using a line plot.
+- Removed the last two rows(Had missing values) for consistency.
 
 ### Stationarity Check
 - Conducted the Augmented Dickey-Fuller (ADF) test to test for stationarity.
@@ -25,11 +21,17 @@ The objective of this project was to forecast monthly champagne sales for Perrin
 
 ### Auto Regressive (AR) Model
 - Plotted autocorrelation and partial autocorrelation functions to determine AR model parameters.
-- Implemented a non-seasonal ARIMA model with order (1,1,1) for forecasting.
+- Implemented ARIMA model with order (1,1,1) for forecasting.
+- ![image](https://github.com/Gayatri-Rout/Forecast-Champagne-Sales-Perrin-Freres/assets/70259060/7461c765-51e9-4c43-b6c4-e832215cd725)
+- <b>OBSERVATION:</b> Data was originally seasonal(non-stationary), even after converting it to stationary, the forecasting is poor as illustrated in the above graph.
+
 
 ### Seasonal ARIMA Model
 - Utilized a Seasonal ARIMA (SARIMA) model with seasonal order (1,1,1,12) for improved forecasting.
+- ![image](https://github.com/Gayatri-Rout/Forecast-Champagne-Sales-Perrin-Freres/assets/70259060/f6232483-9cfb-4cc2-99d6-6d7d5c20d32b)
+  
 
 ### Forecasting
-- Predicted sales for the next 2 years using both ARIMA and SARIMA models.
-- Visualized the forecasted sales alongside historical data.
+- Predicted sales for the next 2 years using SARIMA model.
+- ![image](https://github.com/Gayatri-Rout/Forecast-Champagne-Sales-Perrin-Freres/assets/70259060/96e5fa37-fa76-40bd-a424-11b007dacc3c)
+
