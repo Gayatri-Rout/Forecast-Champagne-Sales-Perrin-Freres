@@ -28,10 +28,10 @@ The objective of this project was to forecast monthly champagne sales for Perrin
 
 ### Seasonal ARIMA Model
 - Utilized a Seasonal ARIMA (SARIMA) model with seasonal order (1,1,1,12) for improved forecasting.
-- ![image](https://github.com/Gayatri-Rout/Forecast-Champagne-Sales-Perrin-Freres/assets/70259060/f6232483-9cfb-4cc2-99d6-6d7d5c20d32b)
+  ![image](https://github.com/Gayatri-Rout/Forecast-Champagne-Sales-Perrin-Freres/assets/70259060/f6232483-9cfb-4cc2-99d6-6d7d5c20d32b)
   
 
 ### Forecasting
 - Predicted sales for the next 2 years using SARIMA model.
-- ![image](https://github.com/Gayatri-Rout/Forecast-Champagne-Sales-Perrin-Freres/assets/70259060/96e5fa37-fa76-40bd-a424-11b007dacc3c)
+  ![image](https://github.com/Gayatri-Rout/Forecast-Champagne-Sales-Perrin-Freres/assets/70259060/96e5fa37-fa76-40bd-a424-11b007dacc3c)
 
