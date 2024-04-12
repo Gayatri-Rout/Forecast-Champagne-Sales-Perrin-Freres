@@ -22,7 +22,7 @@ The objective of this project was to forecast monthly champagne sales for Perrin
 ### Auto Regressive (AR) Model
 - Plotted autocorrelation and partial autocorrelation functions to determine AR model parameters.
 - Implemented ARIMA model with order (1,1,1) for forecasting.
-- ![image](https://github.com/Gayatri-Rout/Forecast-Champagne-Sales-Perrin-Freres/assets/70259060/7461c765-51e9-4c43-b6c4-e832215cd725)
+  ![image](https://github.com/Gayatri-Rout/Forecast-Champagne-Sales-Perrin-Freres/assets/70259060/7461c765-51e9-4c43-b6c4-e832215cd725)
 - <b>OBSERVATION:</b> Data was originally seasonal(non-stationary), even after converting it to stationary, the forecasting is poor as illustrated in the above graph.
 
 
